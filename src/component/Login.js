@@ -56,7 +56,7 @@ var Login = React.createClass ({
           <View style ={styles.buttonRegister}>
             <Text style={styles.buttonTextRegister} >Hoặc đăng nhập với</Text>
             <TouchableOpacity>
-              <Image style={styles.loginFacebook} source={require('../images/facebook.png')}/>
+              <Image style={styles.loginFacebook} source={require('../assets/image/facebook.png')}/>
             </TouchableOpacity>
           </View>
           <View style ={styles.viewAccept}>

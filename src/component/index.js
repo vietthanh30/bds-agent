@@ -15,7 +15,7 @@ import ChatWith from './ChatWith';
 import DangTin from './DangTin';
 import QuanLyTin from './QuanLyTin';
 import MyAccount from './MyAccount';
-import TabTitle from '../src/TabTitle';
+import TabTitle from './TabTitle';
 
 
 
@@ -59,8 +59,8 @@ var App = React.createClass({
             <Scene key="trangchu"
               title="Trang chủ"
               icon={TabTitle}
-              ic = {require('../images/tab-KhamPha.png') }
-              icActive = {require('../images/tab-KhamPha-Active.png') }
+              ic = {require('../assets/image/tab-KhamPha.png') }
+              icActive = {require('../assets/image/tab-KhamPha-Active.png') }
               navigationBarStyle={{
               backgroundColor: 'rgba(30,30,30,0.6)',
               borderBottomColor: 'rgba(204,204,204,0.2)',
@@ -79,8 +79,8 @@ var App = React.createClass({
             <Scene key="chat"
               title="Chat"
               icon={TabTitle}
-              ic = {require('../images/tab-KhamPha.png') }
-              icActive = {require('../images/tab-KhamPha-Active.png') }
+              ic = {require('../assets/image/tab-KhamPha.png') }
+              icActive = {require('../assets/image/tab-KhamPha-Active.png') }
               navigationBarStyle={{
               backgroundColor: 'rgba(30,30,30,0.6)',
               borderBottomColor: 'rgba(204,204,204,0.2)',
@@ -94,6 +94,7 @@ var App = React.createClass({
                 component={ChatWith}
                 title="ChatWith"
                 hideNavBar
+                hideTabBar
                 />
             </Scene> 
           
@@ -101,8 +102,8 @@ var App = React.createClass({
                 key="dangtin"
                 title="Đăng tin"
                 icon={TabTitle}
-                ic = {require('../images/tab-KhamPha.png') }
-                icActive = {require('../images/tab-KhamPha-Active.png') }
+                ic = {require('../assets/image/tab-KhamPha.png') }
+                icActive = {require('../assets/image/tab-KhamPha-Active.png') }
                 navigationBarStyle={{
                 backgroundColor: 'rgba(30,30,30,0.6)',
                 borderBottomColor: 'rgba(204,204,204,0.2)',
@@ -122,8 +123,8 @@ var App = React.createClass({
                 key="quanlytin"
                 title="Quản lý tin"
                 icon={TabTitle}
-                ic = {require('../images/tab-KhamPha.png') }
-                icActive = {require('../images/tab-KhamPha-Active.png') }
+                ic = {require('../assets/image/tab-KhamPha.png') }
+                icActive = {require('../assets/image/tab-KhamPha-Active.png') }
                 navigationBarStyle={{
                 backgroundColor: 'rgba(30,30,30,0.6)',
                 borderBottomColor: 'rgba(204,204,204,0.2)',
@@ -143,8 +144,8 @@ var App = React.createClass({
                 key="myaccount"
                 title="Tôi"
                 icon={TabTitle}
-                ic = {require('../images/tab-KhamPha.png') }
-                icActive = {require('../images/tab-KhamPha-Active.png') }
+                ic = {require('../assets/image/tab-KhamPha.png') }
+                icActive = {require('../assets/image/tab-KhamPha-Active.png') }
                 navigationBarStyle={{
                 backgroundColor: 'rgba(30,30,30,0.6)',
                 borderBottomColor: 'rgba(204,204,204,0.2)',

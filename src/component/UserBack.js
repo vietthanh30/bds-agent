@@ -106,7 +106,7 @@ var UserBack = React.createClass ({
             <View style={styles.modalContainer}>
               <View style={[styles.toolbarModalSend, Platform.OS === 'ios' ? {marginTop: 0} : null]}>
                 <TouchableOpacity onPress={()=>this.refs.modalResetPassWord.close()} style={styles.modalBack} >
-                    <Image style={styles.imageBack} source={require('../images/nav-back.png')}/>
+                    <Image style={styles.imageBack} source={require('../assets/image/nav-back.png')}/>
                 </TouchableOpacity>
                 <View style={styles.modalViewTitle}>
                       <Text style={styles.modalTextTile}>Cập nhật mật khẩu</Text>

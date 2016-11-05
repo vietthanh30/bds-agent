@@ -44,7 +44,7 @@ var HomePage = React.createClass ({
           <View style={{flex:1,backgroundColor:'white'}}>
             <View style={{borderBottomWidth:1, borderColor:'#e8e9e9'}}>
               <TouchableOpacity style={{width:width,height:150}}>
-               <Image style={{width: width,height:150}} source={require('../images/housesale.png')} />
+               <Image style={{width: width,height:150}} source={require('../assets/image/housesale.png')} />
                 <View style={{marginTop: -55, marginLeft: 10}}>
                    <Text style={{fontSize:15,backgroundColor: 'transparent', color:'white'}}>2.2 tỷ</Text>
                     <Text style={{fontSize:12,backgroundColor: 'transparent', color:'white'}}>Bình Chánh, HCM</Text>
@@ -59,7 +59,7 @@ var HomePage = React.createClass ({
             <View style={{width: width,height:150, flexDirection:'row'}}>
               <View style={{borderBottomWidth:1, borderColor:'#e8e9e9'}}>
                 <TouchableOpacity style={{width:width*2/5,height:150}}>
-                 <Image style={{width: width*2/5,height:150}} source={require('../images/housesale.png')} />
+                 <Image style={{width: width*2/5,height:150}} source={require('../assets/image/housesale.png')} />
                   <View style={{marginTop: -55, marginLeft: 10}}>
                      <Text style={{fontSize:15,backgroundColor: 'transparent', color:'white'}}>2.2 tỷ</Text>
                       <Text style={{fontSize:12,backgroundColor: 'transparent', color:'white'}}>Bình Chánh, HCM</Text>
@@ -72,7 +72,7 @@ var HomePage = React.createClass ({
               </View>
               <View style={{borderBottomWidth:1, borderLeftWidth:1, borderColor:'#e8e9e9'}}>
                 <TouchableOpacity style={{width:width*3/5,height:150}}>
-                 <Image style={{width: width*3/5,height:150}} source={require('../images/housesale.png')} />
+                 <Image style={{width: width*3/5,height:150}} source={require('../assets/image/housesale.png')} />
                   <View style={{marginTop: -55, marginLeft: 10}}>
                      <Text style={{fontSize:15,backgroundColor: 'transparent', color:'white'}}>2.2 tỷ</Text>
                       <Text style={{fontSize:12,backgroundColor: 'transparent', color:'white'}}>Bình Chánh, HCM</Text>
@@ -88,7 +88,7 @@ var HomePage = React.createClass ({
             <View style={{width: width,height:150, flexDirection:'row'}}>
               <View style={{borderBottomWidth:1, borderColor:'#e8e9e9'}}>
                 <TouchableOpacity style={{width:width*3/5,height:150}}>
-                 <Image style={{width: width*3/5,height:150}} source={require('../images/housesale.png')} />
+                 <Image style={{width: width*3/5,height:150}} source={require('../assets/image/housesale.png')} />
                   <View style={{marginTop: -55, marginLeft: 10}}>
                      <Text style={{fontSize:15,backgroundColor: 'transparent', color:'white'}}>2.2 tỷ</Text>
                       <Text style={{fontSize:12,backgroundColor: 'transparent', color:'white'}}>Bình Chánh, HCM</Text>
@@ -101,7 +101,7 @@ var HomePage = React.createClass ({
               </View>
               <View style={{borderBottomWidth:1, borderLeftWidth:1, borderColor:'#e8e9e9'}}>
                 <TouchableOpacity style={{width:width*2/5,height:150}}>
-                 <Image style={{width: width*2/5,height:150}} source={require('../images/housesale.png')} />
+                 <Image style={{width: width*2/5,height:150}} source={require('../assets/image/housesale.png')} />
                   <View style={{marginTop: -55, marginLeft: 10}}>
                      <Text style={{fontSize:15,backgroundColor: 'transparent', color:'white'}}>2.2 tỷ</Text>
                       <Text style={{fontSize:12,backgroundColor: 'transparent', color:'white'}}>Bình Chánh, HCM</Text>

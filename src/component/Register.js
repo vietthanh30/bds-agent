@@ -73,7 +73,7 @@ var Register = React.createClass ({
           <View style ={styles.changeImage}>
             
             <TouchableOpacity>
-              <Image style={styles.detailImage} source={require('../images/user.png')}/>
+              <Image style={styles.detailImage} source={require('../assets/image/user.png')}/>
             </TouchableOpacity>
             <Text style={styles.textImage} >Chạm để thêm ảnh đại diện</Text>
           </View>
