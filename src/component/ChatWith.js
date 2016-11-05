@@ -72,11 +72,11 @@ var ChatWith = React.createClass({
         }
     },
   render(){
-    var bg_Homepj = (this.state.curr_tab == 'homepg') ? '#00a8e6' : 'transparent';
-    var bg_ChatWith = (this.state.curr_tab == 'chatwith') ? '#00a8e6' : 'transparent';
-    var bg_Camera = (this.state.curr_tab == 'camera') ? '#00a8e6' : 'transparent';
-    var bg_Detail = (this.state.curr_tab == 'detail') ? '#00a8e6' : 'transparent';
-    var bg_MyAccount = (this.state.curr_tab == 'myaccount') ? '#00a8e6' : 'transparent';
+    var bg_Homepj = (this.state.curr_tab == 'homepg') ? 'darkorange' : 'transparent';
+    var bg_ChatWith = (this.state.curr_tab == 'chatwith') ? 'darkorange' : 'transparent';
+    var bg_Camera = (this.state.curr_tab == 'camera') ? 'darkorange' : 'transparent';
+    var bg_Detail = (this.state.curr_tab == 'detail') ? 'darkorange' : 'transparent';
+    var bg_MyAccount = (this.state.curr_tab == 'myaccount') ? 'darkorange' : 'transparent';
     
       var content;
       if (this.state.curr_tab == 'homepg')
